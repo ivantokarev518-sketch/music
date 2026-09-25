@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Into You — Music</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f3e9f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .player {
+            width: 320px;
+            padding: 25px;
+            text-align: center;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+
+        .cover {
+            width: 220px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        h2 {
+            margin: 18px 0 5px;
+        }
+
+        p {
+            margin: 0 0 20px;
+            color: #777;
+        }
+
+        audio {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="player">
+
+        <img
+            class="cover"
+            src="https://coverartarchive.org/release/96f1c2bc-963c-4cc1-92e3-409330db33e8/front-1200.jpg"
+            alt="Dangerous Woman"
+        >
+
+        <h2>Into You</h2>
+        <p>Ariana Grande</p>
+
+        <audio controls>
+            <source src="into-you.mp3" type="audio/mpeg">
+            Твой браузер не поддерживает аудио.
+        </audio>
+
+    </div>
+
+</body>
+</html>
